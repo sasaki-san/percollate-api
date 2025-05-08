@@ -21,5 +21,7 @@ RUN pnpm install
 
 RUN pnpm dlx puppeteer browsers install
 
+RUN npm install -g percollate
+
 EXPOSE 3000
 CMD ["pnpm", "start"]
