@@ -19,7 +19,7 @@ RUN node --version \
 
 RUN pnpm install
 
-RUN pnpm pnpm dlx puppeteer browsers install
+RUN pnpm dlx puppeteer browsers install
 
 EXPOSE 3000
 CMD ["pnpm", "start"]
